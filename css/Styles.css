@@ -29,6 +29,12 @@ h1{
    text-transform: uppercase;
     color: #8f4b73;
 }
+
+p{
+    line-height:125%;
+    font-size: 90%;
+}
+
 img{
     width: 150px;;
     height: 180px;
