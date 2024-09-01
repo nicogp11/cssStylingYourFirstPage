@@ -9,6 +9,17 @@ header{
 }
 nav{
     background-color:#ffb3ca ;
+    display: inline-block;
+    width: 80%;
+}
+img{
+    padding: 0.5%;
+}
+header img{
+    width: 10%;
+    position: relative;  
+    top: 20px;
+    
 }
 main{
     background-color: #ffd193;
@@ -18,9 +29,11 @@ main{
 footer{
     background-color: #ffb3ca;
 }
-li{
-    display: inline-flex;
-    padding-left: 10%;
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    list-style-type: none;
 }
 
 h1{
@@ -34,9 +47,19 @@ p{
     line-height:125%;
     font-size: 90%;
 }
-
-img{
-    width: 150px;;
-    height: 180px;
-    padding: 0.5%;
+.grid{
+display: grid;
+grid-template-columns: 40% 40%;
+justify-content:space-around;
+align-items:center;
+row-gap: 5px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around
+}
+.grid img{
+    width: 100%;
 }
